@@ -1,0 +1,26 @@
+{
+    "name": "SamsungBleSpam",
+    "keywords": "esp32",
+    "description": "Make samsung phone receive tons of galaxy weareable device pair requests",
+    "authors": [
+        {
+            "name": "Andreock",
+            "maintainer": true
+        },
+        {
+            "name": "Spooks4576",
+            "maintainer": false
+        }
+    ],
+	"repository":
+    {
+        "type": "git",
+        "url": "https://github.com/andreock/SamsungBleSpam.git"
+    },
+    "version": "1.1",
+    "frameworks": "arduino",
+    "dependencies":
+	{
+        "h2zero/NimBLE-Arduino": "^1.4.1"
+	}
+}
